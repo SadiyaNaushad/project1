@@ -346,9 +346,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
+  color: #000;
 }
 .skill-bx {
-  background: #151515;
+  background: white;
   border-radius: 64px;
   text-align: center;
   padding: 30px 50px;
@@ -359,11 +360,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	font-weight: 700;
 }
 .skill p {
-    color: #B8B8B8;
+    color: black;
     font-size: 18px;
     letter-spacing: 0.8px;
     line-height: 1.5em;
-    margin: 14px 0 75px 0;
+    margin: 14px 0 55px 0;
 }
 .skill-slider {
   width: 80%;
@@ -405,7 +406,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
-  border-radius: 50px;
+  /* border-radius: 50px; */
   background-color: rgb(255 255 255 / 10%);
   overflow: hidden;
   cursor: pointer;
@@ -678,17 +679,20 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .gradient-button {
   padding: 4px 8px;
   margin: 10px 3px;
-  background: linear-gradient(90deg, #a200ff, #3d00ff);
-  color: white;
-  border-radius: 20px;
+  background: rgb(252, 248, 253);
+  color: black;
+  border-radius: 10px;
   font-weight: bold;
   font-size: 1.2rem;
   text-align: center;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
+  cursor:cell;
+  border: 0.1rem solid black;
 }
 .gradient-button:hover {
-  background: linear-gradient(90deg, #3d00ff, #a200ff);
+  /* background: linear-gradient(90deg, #3d00ff, #a200ff); */
+  background: linear-gradient(100deg, #5f138ec4, #9d73b3);
   transform: scale(1.05);
   transition: transform 0.2s ease-in-out;
+  border: 0.3rem solid black;
 }

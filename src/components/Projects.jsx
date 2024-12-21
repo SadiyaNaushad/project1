@@ -69,7 +69,7 @@ export const Projects = () => {
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                     <Tab.Pane eventKey="first">
-                    <Row className="g-3">
+                    <Row className="g-3 d-flex justify-content-center">
                       {projects.map((project, index) => (
                         <Col md={6} lg={4} key={index}>
                           <Card className="h-100 shadow-sm hover-effect">
@@ -97,7 +97,8 @@ export const Projects = () => {
               rel="noopener noreferrer"
               className="btn btn-primary"
               style={{
-                backgroundColor: "#4A2FBD",
+                // backgroundColor: "#4A2FBD",
+                background: "linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%)",
                 border: "none",
                 transition: "background-color 0.3s ease",
                 position: "absolute",

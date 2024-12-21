@@ -27,14 +27,14 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Skills</h2>
-                        <p style={{color: "white"}}>With hands-on experience in ReactJS and expertise in developing dynamic, user-centric web and mobile applications, I have developed my skills in state management, responsive design, and seamless RESTful API integration. My experience working on multiple large-scale projects has made me a quick learner who is flexible to new situations and technologies. 
+                        <p>With hands-on experience in ReactJS and expertise in developing dynamic, user-centric web and mobile applications, I have developed my skills in state management, responsive design, and seamless RESTful API integration. My experience working on multiple large-scale projects has made me a quick learner who is flexible to new situations and technologies. 
                         </p>
-                        <Row className="justify-content-center mt-3">
+                        <Row className="justify-content-center">
                         {skills.map((skill, index) => (
                             <Col
                               key={index}
                               xs="auto"
-                              className="mb-3 d-flex align-items-center justify-content-center"
+                              className="mb-2 d-flex align-items-center justify-content-center"
                             >
                                <div className="gradient-button px-3 py-2">{skill}</div>
                             </Col>
